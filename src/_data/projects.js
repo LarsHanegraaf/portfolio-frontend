@@ -1,7 +1,6 @@
 const { default: axios } = require('axios');
 
 content_url = process.env.CONTENT_URL;
-console.log(content_url);
 
 module.exports = async () => {
     try {
